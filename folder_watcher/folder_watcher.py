@@ -2,7 +2,7 @@
 
 import os
 import inotify.adapters
-
+#http://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/
 
 def _main():
   inot = inotify.adapters.Inotify()
